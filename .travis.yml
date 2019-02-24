@@ -1,11 +1,11 @@
 language: python
 python:
-    - "2.7"
+  - "2.7"
 install:
-    - make deps
+  - make deps
 services:
-    - docker
+  - docker
 script:
-    - make list
-    - make test
-    - make docker_build
+  - make list
+  - make test
+  - make docker_build
