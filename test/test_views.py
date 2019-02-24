@@ -5,7 +5,7 @@ from hello_world.formater import SUPPORTED
 
 class FlaskrTestCase(unittest.TestCase):
     def setUp(self):
-        app.config['TESTING'] =  True
+        app.config['TESTING'] = True
         self.app = app.test_client()
 
     def test_outputs(self):
