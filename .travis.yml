@@ -3,7 +3,7 @@ python:
     "2.7"
 install:
     - make deps
-service:
+services:
     - docker
 script:
     - make list
