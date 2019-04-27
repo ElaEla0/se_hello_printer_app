@@ -9,11 +9,13 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ::
 
     # centos, add to ~/.bashrc
-    $ source /usr/bin/virtualenvwrapper.sh
+   $ source /usr/bin/virtualenvwrapper.sh
     
     # ubuntu, add to ~/.bashrc
     $ source /usr/local/bin/virtualenvwrapper.sh
-
+#zaczynamy od git clone i sudo su instalujemy dwie biblioteki
+#zmiaa
+#zmiana 2
     # tworzymy hermetyczne środowisko dla bibliotek aplikacji:
     $ mkvirtualenv wsb-simple-flask-app
     $ pip install -r requirements.txt
