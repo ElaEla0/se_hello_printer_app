@@ -3,12 +3,14 @@
 deps:
 	pip install -r requirements.txt;
 	pip install -r test_requirements.txt
-
+#make lint ,sprawdza czy kod jest dobry make lint
 lint:
 		flake8 hello_world test
+#unittest robi testy
 
 test:
 	PYTHONPATH=. py.test --verbose -s
+#uruchamia aplikacje culr i adres http
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 
