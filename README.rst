@@ -108,7 +108,7 @@ Centos
 
 .. image:: https://travis-ci.org/ElaEla0/se_hello_printer_app.svg?branch=master
 :target: https://travis-ci.org/ElaEla0/se_hello_printer_app
-
+#dodanie adresu aplikacji do statuscake
 Materiały
 =========
 
