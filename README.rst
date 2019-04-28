@@ -5,13 +5,12 @@ Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach 
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
+
 .. image:: https://travis-ci.org/ElaEla0/se_hello_printer_app.svg?branch=master
-:target: https://travis-ci.org/ElaEla0/se_hello_printer_app
+        :target: https://travis-ci.org/ElaEla0/se_hello_printer_app
 
 .. image:: https://app.statuscake.com/button/index.php?Track=wIHbFum43d&Days=1&Design=1
-:target:https://www.statuscake.com
-
-
+        :target: https://www.statuscake.com
 
 
     # centos, add to ~/.bashrc
