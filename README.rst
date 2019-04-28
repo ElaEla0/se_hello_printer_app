@@ -10,7 +10,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
         :target: https://travis-ci.org/ElaEla0/se_hello_printer_app
 
 .. image:: https://app.statuscake.com/button/index.php?Track=wIHbFum43d&Days=1&Design=1
-        :target: https://www.statuscake.com
+:target: https://www.statuscake.com
 
 
     # centos, add to ~/.bashrc
