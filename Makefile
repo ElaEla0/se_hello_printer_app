@@ -11,6 +11,14 @@ lint:
 test:
 	PYTHONPATH=. py.test --verbose -s
 #uruchamia aplikacje culr i adres http
+
+test_cov:
+	PYTHONPATH=. py.test --verbose -s --cov=.
+	PYTHONPATH=. py.test --verbose -s --cov=. --cov=. --cov-report xml
+
+test_xunit:
+	PYTONPATH=. py.test -s --cov=. --cov-report xml --junit-xml=test_results.xml
+
 run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 
@@ -31,3 +39,4 @@ docker_push: docker_build
 	docker tag hello-world-printer $(TAG); \
 	docker push $(TAG)
 	docker logout;
+
