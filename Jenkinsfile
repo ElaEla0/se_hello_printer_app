@@ -6,6 +6,7 @@ pipeline {
 	            sh 'make deps'
         	}
         }
+	stage('Linter')
 	stage('Test') {
 	    steps {
 			sh 'make test'
